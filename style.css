@@ -1,0 +1,79 @@
+ body{background-color: #0F0;
+	background-image: url("/Users/oscar/OneDrive/Documentos/6 Semestre/Programacion Web/Proyecto/img/paraf1.jpg");
+}
+     	#cabeza{
+     		height: 85px;
+     		background: #FB5816;
+     	}
+#sizq{
+	left: 200px;
+	top: 450;
+}
+#apDiv9 {
+	position: absolute;
+	width: 200px;
+	height: 115px;
+	top: 545px;
+	left: 333px;
+}
+
+#div5{
+	left: 200px;
+	top: 109px;
+	position: absolute;
+	background: #6495ED;
+	height: 60px;
+	width: 350px;
+}
+#div6{
+	left: 560px;
+	top: 109px;
+	position: absolute;
+	background: #6495ED;
+	height: 60px;
+	width: 350px;
+}
+#div7{
+	left: 920px;
+	top: 109px;
+	position: absolute;
+	background: #6495ED;
+	height: 60px;
+	width: 350px;
+}
+#div8{
+	left: 250px;
+	top: 450px;
+	position: absolute;
+	background: #6495ED;
+	height: 60px;
+	width: 350px;
+}
+#div9{
+	left: 850px;
+	top: 450px;
+	position: absolute;
+	background: #6495ED;
+	height: 60px;
+	width: 350px;
+}
+#img2{
+left: 270px;
+top: 200px;
+position: absolute;
+}
+#img3{
+right: 690px;
+top: 200px;
+position: absolute;
+}
+#img4{
+left: 960px;
+top: 200px;
+position: absolute;
+}
+#img5{
+left: 890px;
+top: 520px;
+position: absolute;
+} 

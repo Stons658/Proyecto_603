@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1 style="font-family: Arial,sans-serif; color: cornflowerblue;">BIBLIOTECA</h1>
+<style type="text/css">
+	body{
+		background-image: url("/Users/oscar/OneDrive/Documentos/6 Semestre/Programacion Web/Proyecto/img/biblio.jpg");
+	}
+	#div1, #div2, #div3, #div4{
+	font-family: Arial, sans-serif;
+	color: #393E41;
+}
+#main {
+height: 400px;
+width: 800px;
+background: #5F9EA0;
+}
+#marcoB{
+	width: 800px;
+     border: 2px solid #000; 
+     height: 700 px;
+     left: 350px;
+     top: 80px;
+     position: absolute;
+     background: royalblue;
+}
+ #cab1{
+	width: 800px;
+   height: 100px;
+	background-image: url("/Users/oscar/OneDrive/Documentos/6 Semestre/Programacion Web/Proyecto/img/escol.jpg");
+}
+#tab1{
+	border: 3;
+	position: absolute;
+	background:#D3D0CB ;
+	left: 300px;
+	top: 150px;
+}
+#divb{
+	position: absolute;
+	left: 600px;
+	top: 480px;
+}
+</style>
+</head>
+<body>
+	<div id = "marcoB">
+	<header id="cab1"></header>
+
+	<section id = "main"><form action="enviar.php" method="post">
+	<table id="tab1"> 
+
+<div><td id="div1">Titulo Libro:</td></div>
+<tr><td> <input type="text" name ="vfNombrel" maxlength="10" value=" "></td></tr>
+
+<tr><td id="div2">Autor:</td></tr>
+<tr><td> <input type="text" name ="vfAutor" maxlength="50" value=""></td></tr>
+
+<tr> <td id="div3"> Categoria: </td></tr>
+<tr><td> <select name="vfCategoria">
+	<option values="C"> Ciencia </option>
+	<option values="T"> Tecnologia </option>
+	<option values="F"> Filosofia </option>
+	<option values="L"> Literatura </option>
+         </select>
+</td></tr>
+
+<tr><td>
+	<button type="submit">Buscar</button>
+<tr></td>
+	
+</table>
+</form>
+<button id="divb" type="submit"><a href="index.html">Regresar</a></button>
+</section>
+</div>
+</body>
+</html>
